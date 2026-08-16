@@ -1,0 +1,6 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name: Create text file using custom module
+  my_own_namespace.yandex_cloud_elk.my_own_module:
+    path: "{{ create_file_path }}"
+    content: "{{ create_file_content }}"

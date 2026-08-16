@@ -1,0 +1,19 @@
+namespace: my_own_namespace
+name: yandex_cloud_elk
+version: 1.0.0
+readme: README.md
+authors:
+  - Knyazev Evgeniy evgkn79@mail.ru
+description: Custom Ansible collection with a module for creating text files
+license:
+  - GPL-3.0-or-later
+tags:
+  - tools
+  - files
+dependencies: {}
+repository: https://github.com/YOUR_USERNAME/my_own_collection
+documentation: https://github.com/YOUR_USERNAME/my_own_collection/blob/main/README.md
+homepage: https://github.com/YOUR_USERNAME/my_own_collection
+issues: https://github.com/YOUR_USERNAME/my_own_collection/issues
+build_ignore:
+  - "*.tar.gz"

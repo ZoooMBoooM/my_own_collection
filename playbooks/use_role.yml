@@ -1,0 +1,10 @@
+---
+- name: Use create_file role
+  hosts: localhost
+  gather_facts: no
+  connection: local
+  roles:
+    - role: my_own_namespace.yandex_cloud_elk.create_file
+      vars:
+        create_file_path: /tmp/from_role.txt
+        create_file_content: "This file was created by the role!"
